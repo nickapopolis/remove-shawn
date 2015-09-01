@@ -1,0 +1,14 @@
+{
+  "name": "RemoveShawn",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Finds shawn in any array or object and removes him",
+  "author": "Nick Tierney",
+  "dependencies": {
+    "lodash": "~3.10.1"
+  },
+  "scripts": {},
+  "engines": {
+    "node": ">= 0.10.36"
+  }
+}
