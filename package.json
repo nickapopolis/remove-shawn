@@ -1,7 +1,7 @@
 {
   "name": "remove-shawn",
   "private": false,
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Finds shawn in any array or object and removes him",
   "author": "Nick Tierney",
   "dependencies": {
