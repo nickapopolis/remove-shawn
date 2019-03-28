@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+
+const getRidOfHim = require('..');
+const through2 = require('through2');
+
+process.stdin.pipe(through2(function (chunk, enc, callback) {
+	const shawnfulString = chunk.toString('utf8');
+	const shawnlessString = getRidOfHim(shawnfulString);
+	this.push(Buffer.from(shawnlessString, 'utf8'));
+	callback();
+})).pipe(process.stdout);

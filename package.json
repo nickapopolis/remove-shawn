@@ -4,15 +4,19 @@
   "version": "0.0.8",
   "description": "Finds shawn in any array or object and removes him",
   "author": "Nick Tierney",
+  "bin": {
+    "remove-shawn": "./bin/remove-shawn"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nickapopolis/remove-shawn.git"
   },
   "dependencies": {
-    "lodash": "~3.10.1"
+    "lodash": "~3.10.1",
+    "through2": "^3.0.1"
   },
   "scripts": {
-    "test" : "node test"
+    "test": "node test"
   },
   "engines": {
     "node": ">= 0.10.36"

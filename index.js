@@ -13,11 +13,7 @@ function getRidOfHim(shawnfulArg){
 	}
 }
 function removeShawnFromString(shawnfulString){
-	if(shawnfulString == null || shawnfulString.toLowerCase().indexOf("shawn") > -1){
-		return null
-	}else{
-		return shawnfulString;
-	}
+	return shawnfulString.replace(/shawn/gi, '');
 }
 function removeShawnFromObject(shawnfulObject){
 	var shawnlessObject = shawnfulObject;
